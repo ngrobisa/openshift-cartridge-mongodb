@@ -1,4 +1,3 @@
----
 Name: mongodb
 Description: MongoDB cartridge version 3.0.4.
 Version: '3.0.4'
@@ -8,8 +7,8 @@ Vendor: www.mongodb.org
 Website: http://www.mongodb.org/
 Display-Name: MongoDB 3.0.4
 Cartridge-Short-Name: MONGODB
-Cartridge-Version: '1.1.0'
-Cartridge-Vendor: icflorescu
+Cartridge-Version: '1.1.0-1'
+Cartridge-Vendor: nickyramone
 Categories:
 - service
 - database
@@ -35,3 +34,5 @@ Endpoints:
   Public-Port-Name: PROXY_PORT
   Protocols:
   - mongodb
+
+Source-Url: https://github.com/ngrobisa/openshift-cartridge-mongodb/archive/master.zip
